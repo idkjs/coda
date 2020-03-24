@@ -575,9 +575,9 @@ acorn-walk@^6.0.1:
   integrity sha512-OtUw6JUTgxA2QoqqmrmQ7F2NYqiBPi/L2jqHyFtllhOUvXYQXf0Z1CYUinIfyT4bTCGmrA7gX9FvHA81uzCoVw==
 
 acorn@^5.5.3:
-  version "5.7.3"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
-  integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
 acorn@^6.0.1:
   version "6.1.1"
@@ -4725,9 +4725,10 @@ realpath-native@^1.1.0:
   dependencies:
     util.promisify "^1.0.0"
 
-"reason-apollo@github:yawaramin/reason-apollo#bugfix/226-option-annotation":
-  version "0.18.0"
-  resolved "https://codeload.github.com/yawaramin/reason-apollo/tar.gz/66a7f0df6e3f385a6873fa6b430655b5439d4b99"
+reason-apollo@^0.19.0:
+  version "0.19.0"
+  resolved "https://registry.yarnpkg.com/reason-apollo/-/reason-apollo-0.19.0.tgz#16940916cd5c912a74fb9da57f4de063b20b6e6f"
+  integrity sha512-VpKHvdzBiLtIg+T/AC100ZNztr7KklIXzlnSd4o/T2vGnwFgVgHIG6//c+Hz8nFjaVUXfk1tFlxnVfBhhKQC4g==
   dependencies:
     apollo-cache-inmemory "^1.6.0"
     apollo-client "^2.6.3"
