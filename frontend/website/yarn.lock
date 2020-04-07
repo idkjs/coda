@@ -2001,12 +2001,18 @@ browserslist@4.8.3, browserslist@^4.6.0, browserslist@^4.7.2:
     electron-to-chromium "^1.3.322"
     node-releases "^1.1.44"
 
-bs-css@^9.0.1:
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/bs-css/-/bs-css-9.0.1.tgz#105733f880bfb2dc1d1dfd3174b60b35c381ee6f"
-  integrity sha512-EnEWGMearvX1SpnM0s6rRvKGeiNM5SyvU1BzoYJvtaTR3WE3RUqUc5cCVWDInT1SNUwi4uBo4BfBakzWt9MZww==
+bs-css-emotion@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/bs-css-emotion/-/bs-css-emotion-1.1.0.tgz#0accc326fc2c9aff094582c766837373ec436ac1"
+  integrity sha512-G/y3HpM0NIgjkPEDT7fe3fWpP80ZhUpuiyDqL2esM9fueNiU+IcZ5S6g02tD4lp5UQZPCF+5KlzxOmSbKOhn4w==
   dependencies:
+    bs-css "12.1.0"
     emotion "^10.0.7"
+
+bs-css@12.1.0, bs-css@^12.1.0:
+  version "12.1.0"
+  resolved "https://registry.yarnpkg.com/bs-css/-/bs-css-12.1.0.tgz#8bea8970d31cd133bb81e2aeb78b187a807d003c"
+  integrity sha512-cKxVoPe1PtVTYAUYp81lleRwawd/OhdgDINx8V1/AOUuHkan6g23Jh6b+WACJXrOn4vVJmSgVdBfMqaeHMoi8g==
 
 bs-fetch@^0.5.0:
   version "0.5.0"
